@@ -1,0 +1,207 @@
+.header {
+    background-color: grey;
+    display: flex;
+    width: 100%;
+}
+.logo {
+    height: 25%;
+}
+.navbar {
+    display: none;
+}
+body {
+    width: 100%;
+}
+.confbs {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
+    list-style-type: none;
+    padding-left: 400px;
+    font-size: 20px;
+    margin-top: 18px;
+    
+}
+.tickets {
+    color: green;
+    font-weight: 600;
+}
+.conferencia {
+    color: white;
+    font-weight: 450;
+}
+.oradores {
+    color: darkgray;
+    font-weight: 450;
+}
+.lugaryfecha {
+    color: darkgray;
+    font-weight: 450;
+}
+.orador {
+    color: darkgray;
+    font-weight: 450;
+}
+.codoacodo {
+    margin-left: 100px;
+    margin-right: 10px;
+    text-decoration: none;
+    width: 100px; 
+    height: 80px;
+}
+.confbsas {
+    justify-content: center;
+    margin-top: 18px;
+    color: white;
+    font-weight:350;
+}
+#ba1 {
+	text-align: center;
+	background-position: center center;
+	background-size: cover;
+	position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    width: 100%;
+    
+}
+.conf {
+    color: white;
+    text-align: right;
+    padding-top: 400px;
+    padding-right: 175px;
+}
+.texto {
+    color: white;
+    text-align: right;
+    padding-right: 175px;
+    margin-top: 10px;
+    font-weight: 100px;
+    padding-left: 950px;
+}
+.texto h4 {
+    font-weight: normal;
+}
+.buttons {
+    padding-left: 1300px;
+    margin-bottom: 310px;
+}
+.btn-outline-light {
+    font-size: 23px;
+    margin-right: 15px;
+}
+.btn-success {
+    font-size: 23px;
+    background-color: green;
+}
+.cartas {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+.carta1 {
+    margin-left: 300px;
+    margin-right: 50px;
+    width: 25rem; 
+    border: 1px solid black;
+}
+.carta2 {
+    margin-right: 50px;
+    width: 25rem; 
+    border: 1px solid black;
+}
+.carta3 {
+    width: 25rem; 
+    border: 1px solid black;
+}
+.container {
+    padding-left: 0%;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+.col-6.themed-grid-col {
+    width: 72%;
+}
+.col-6.themed-grid-col.text {
+    width: 72%; 
+    background-color: grey; 
+    color: white; 
+    border-left: 0.5px solid gray;
+}
+.octubre {
+    margin-left: 20px;
+    padding-top: 20px;
+}
+.octubretexto {
+    padding-left: 20px;
+    font-weight: 100px;
+    font-size: 19.2px;
+    padding-right: 20px;
+}
+.titulo {
+    margin-left: 500px; 
+    margin-top: 5px; 
+    color: black
+}
+.nombre {
+    margin-left: 400px
+}
+.apellido {
+    margin-right: 400px;
+}
+.form-floating {
+    margin-left: 500px; 
+    margin-right: 500px;
+}
+.enviar {
+    margin-left: 500px; 
+    margin-right: 500px; 
+    width: 48%; 
+    background-color: green; 
+    margin-bottom: 30px;
+}
+.footer {
+    text-align: center;
+    background: darkcyan;
+    display: flex;
+    color:white;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    font-size: 20px;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    margin-bottom: 0%;
+}
+.condiciones {
+    width: 6%; 
+    line-height: 150%
+}
+.conferencias {
+    width: 6%;
+}
+
+.privacidad {
+    width: 6%;
+}
+
+.estudiantes {
+    width: 6%;
+}
+
+.prensa {
+    width: 6%;
+}
+
+.preguntas {
+    width: 6%;
+    line-height: 150%;
+    margin-top: 5px;
+}
+
+
+
