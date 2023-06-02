@@ -288,6 +288,74 @@ a.orador:hover {
     display: none;
 }
 
+.link-verde-ticket{
+    color: #9de853 !important; 
+}
+
+.row-group{
+    align-items: center;
+    padding: 0 10%;
+    justify-content: space-between !important;
+}
+
+.grupo-tickets{
+    margin-top: 8rem;
+
+}
+
+.card-tickets {
+    text-align: center;
+    padding: 1rem;
+}
+
+.card-tickets:hover{
+    transform: scale(0.9);
+    transition: 0.8s linear;
+    background-color: rgb(221, 218, 218);
+}
+
+.card-tickets-estudiante{
+    border: solid 1px rgb(41, 128, 234) !important;
+}
+
+.card-tickets-trainee{
+    border: solid 1px rgb(17, 150, 216) !important;
+}
+
+.card-tickets-junior{
+    border: solid 1px rgb(225, 192, 28) !important;
+}
+
+.formulario-tickets{
+    padding-top: 5px;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.total-pagar{
+    background-color: #cee4ee !important;
+}
+
+.container-btn-tickets{
+    align-items: center !important;
+}
+
+.btn-ticket{
+    width: 48.3%;
+    border: none !important;
+    background-color: #7fc33b !important;
+}
+
+.footer-ticket{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-ticket .footer-link{
+    font-size: 15px !important;
+}
+
 @media only screen and (max-width: 768px) {
 
     /* For mobile phones: */
@@ -345,6 +413,7 @@ a.orador:hover {
     }
     .tickets {
         margin: 10px 0;
+        position:fixed;
     }
     
     
@@ -510,7 +579,12 @@ a.orador:hover {
     .prensa {
         width: 100%;
     }
-    
+@media screen and (min-width: 848px) and (min-height: 850px){
+
+    .footer-ticket{
+        position: fixed;
+    }
+}
 
 }
 
