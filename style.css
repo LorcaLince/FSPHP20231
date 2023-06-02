@@ -349,11 +349,27 @@ a.orador:hover {
 .footer-ticket{
     left: 0;
     bottom: 0;
+    text-align: center;
+    background: linear-gradient(70deg, rgba(26,54,68,255), rgba(27,82,113,255));
+    display: flex;
+    color:white;
+    flex-direction: row;
+    padding-left: 300px;
+    padding-right: 300px;
+    justify-content: space-between;
+    list-style-type: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    align-items: center;
+    position: relative;
     width: 100%;
+    margin-bottom: 0%;
 }
 
 .footer-ticket .footer-link{
     font-size: 15px !important;
+    
 }
 
 @media only screen and (max-width: 768px) {
