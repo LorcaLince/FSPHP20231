@@ -40,12 +40,11 @@ footer {
     margin-top: 18px;
     
 }
+
 linksheader2:active {
     color: white;
 }
-.linksheader1 {
-    display: none;
-}
+
 
 .tickets {
     color: rgba(69,131,85,255);
@@ -376,6 +375,7 @@ a.orador:hover {
 
 @media only screen and (max-width: 768px) {
 
+
     .codoacodo {
         padding: 0%;
         margin-left: 0;
@@ -429,7 +429,6 @@ a.orador:hover {
     }
     .tickets {
         margin: 10px 0;
-        position:fixed;
     }
     
     
@@ -522,7 +521,11 @@ a.orador:hover {
         border-top: 1px white;
     }
 
+    .hawaii {
+        width: 70%;
+        height: 50%;
 
+    }
 
     .bsasoctubre {
         padding-top: 10px;

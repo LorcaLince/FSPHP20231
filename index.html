@@ -11,64 +11,38 @@
 
 <body>
     <header>
-        <div class="header">
-            <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#opciones">
+        <nav class="navbar navbar-expand-md bg-body-tertiary px-5 py-2 fixed-top" data-bs-theme="dark">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler"
+                    aria-controls="navbar-toggler" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="opciones">
-                    <ul class="linksheader1">
-                        <br>
-                        <li>
-                            <a class="conferencia" href="#confciudad" style="text-decoration: none;">La conferencia</a>
+                <div class="collapse navbar-collapse" id="navbarToggler">
+                    <a class="navbar-brand" href="../index.html">
+                        <img id="logo-pagina" src="../imagenes/codoacodo.png" width="100" alt="Logo de la pagina">
+                        <span class="nombre-logo">Conf Bs As</span>
+                    </a>
+                    <ul class="navbar-nav d-flex justify-content-center align-items-e">
+                        <li class="nav-item cursor-pointer">
+                            <a class="nav-link" aria-current="page" href="#confciudad">La conferencia</a>
                         </li>
-                        <br>
-                        <li>
-                            <a class="oradores" href="#oradores" style="text-decoration: none;">Los oradores</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#oradores">Los oradores</a>
                         </li>
-                        <br>
-                        <li>
-                            <a class="lugaryfecha" style="text-decoration: none;">El lugar y la fecha</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#bsasoctubre">El lugar y la fecha</a>
                         </li>
-                        <br>
-                        <li>
-                            <a class="orador" href="#convierteteenorador" style="text-decoration: none;">Conviértete en
-                                orador</a>
+                        <li class="nav-item">
+                            <a class="nav-link  active" href="#convierteteenorador">Conviértete en orador</a>    
                         </li>
-                        <br>
-                        <li>
-                            <a class="tickets" href="HTML/ticket.html" style="text-decoration: none;">Comprar tickets</a>
+                        <li class="nav-item">
+                            <a class="nav-link link-verde-ticket" href="HTML/ticket.html">Comprar tickets</a>
                         </li>
                     </ul>
                 </div>
-            </nav>
-
-            <div class="logo">
-                <img src="./imagenes/codoacodo.png" class="codoacodo" alt="codoacodo">
-
             </div>
-
-            <h3 class="confbsas">Conf Bs As</h3>
-            <ul class="linksheader2">
-                <li>
-                    <a class="conferencia" href="#confciudad" style="text-decoration: none;">La conferencia</a>
-                </li>
-                <li>
-                    <a class="oradores" href="#oradores" style="text-decoration: none;">Los oradores</a>
-                </li>
-                <li>
-                    <a class="lugaryfecha" href="#ba2"style="text-decoration: none;">El lugar y la fecha</a>
-                </li>
-                <li>
-                    <a class="orador" href="#convierteteenorador" style="text-decoration: none;">Conviértete en
-                        orador</a>
-                </li>
-                <li>
-                    <a class="tickets" href="HTML/ticket.html" style="text-decoration: none;">Comprar tickets</a>
-                </li>
-            </ul>
-        </div>
-    </header>
+        </nav>
+    </header> 
 
     <main>
         <div id="ba1" class="carousel slide" data-bs-ride="carousel">
@@ -188,6 +162,7 @@
                                 </button>
             </div></div></div>
             <div class="col-6 themed-grid-col text">
+                <h1><a id="bsasoctubre"></a></h1>
                 <h1 class="bsasoctubre">Bs As - Octubre</h1>
                 <p class="bsastexto">Buenos Aires es la provincia y localidad más grande del estado de Argentina, en
                     los Estados Unidos. Honolulu es la más sureña de entre las principales ciudades
